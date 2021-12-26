@@ -1,3 +1,4 @@
+This is a folk of yuukan:streamy, updated to Meteor 2.5
 # streamy: Directly use meteor streams with a friendly to use API.
 
 The chat example is available live at [http://streamy.meteor.com](http://streamy.meteor.com/). It's not bug free yet but that's a pretty good example of what you can do with this package :)
@@ -7,7 +8,7 @@ The chat example is available live at [http://streamy.meteor.com](http://streamy
 Simply add it to your project with:
 
 ```console
-meteor add yuukan:streamy
+meteor add designveloper:streamy
 ```
 
 **Note:** Meteor keeps logging warning with `_debug` about the message not being recognized because of [those lines](https://github.com/meteor/meteor/blob/c0aab1e8d3a5f01b4bedaa1c63dea3fc8f3db9b7/packages/ddp/livedata_connection.js#L259). You can override `Meteor._debug` to get rid of it (as shown in the [example](https://github.com/YuukanOO/streamy/blob/master/examples/chat/client/app.js#L1-7)).

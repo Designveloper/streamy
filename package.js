@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'yuukan:streamy',
-  version: '1.4.1',
+  name: 'designveloper:streamy',
+  version: '2.5',
   // Brief, one-line summary of the package.
   summary: 'Simple interface to use the underlying sockjs in a meteor application',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/YuukanOO/streamy',
+  git: 'https://github.com/designveloper/streamy',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
